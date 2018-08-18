@@ -282,7 +282,7 @@ maven & gradle
 
 # 三、 高级篇
 
-##新技术
+## 新技术
 
 Java 8
 
@@ -572,10 +572,10 @@ TensorFlow、DeepLearning4J
 
 Groovy、Python、Go、NodeJs、Swift、Rust
 
-#六、 推荐书籍
+# 六、 推荐书籍
 
 《深入理解Java虚拟机》 《Effective Java》 《深入分析Java Web技术内幕》 《大型网站技术架构》 《代码整洁之道》 《Head First设计模式》 《maven实战》 《区块链原理、设计与应用》 《Java并发编程实战》 《鸟哥的Linux私房菜》 《从Paxos到Zookeeper》 《架构即未来》
 
 
 
-：脑图内容按照[《Java工程师成神之路~》](http://www.hollischuang.com/archives/489?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io) 进行组织。
+注：脑图内容按照[《Java工程师成神之路~》](http://www.hollischuang.com/archives/489?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io) 进行组织。
