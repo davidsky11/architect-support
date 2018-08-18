@@ -3,7 +3,7 @@
 
 
 # 一、基础篇
----
+
 ## JVM
 
 JVM内存结构
@@ -181,7 +181,7 @@ ThreadLocal
 守护线程和非守护线程的区别以及用法
 
 # 二、 进阶篇
----
+
 ## Java底层知识
 
 字节码、class文件格式
@@ -281,7 +281,7 @@ git & svn
 maven & gradle
 
 # 三、 高级篇
----
+
 ##新技术
 
 Java 8
@@ -459,7 +459,7 @@ SSL、TLS，HTTPS
 用openssl签一个证书部署到apache或nginx
 
 # 四、架构篇
----
+
 ## 分布式
 
 数据一致性、服务治理、服务降级
@@ -535,7 +535,7 @@ DNS原理、DNS的设计
 数据一致性
 
 # 五、 扩展篇
----
+
 ## 云计算
 
 IaaS、SaaS、PaaS、虚拟化技术、openstack、Serverlsess
@@ -573,8 +573,9 @@ TensorFlow、DeepLearning4J
 Groovy、Python、Go、NodeJs、Swift、Rust
 
 #六、 推荐书籍
----
+
 《深入理解Java虚拟机》 《Effective Java》 《深入分析Java Web技术内幕》 《大型网站技术架构》 《代码整洁之道》 《Head First设计模式》 《maven实战》 《区块链原理、设计与应用》 《Java并发编程实战》 《鸟哥的Linux私房菜》 《从Paxos到Zookeeper》 《架构即未来》
 
 
-注：脑图内容按照[《Java工程师成神之路~》](http://www.hollischuang.com/archives/489?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io) 进行组织。
+
+：脑图内容按照[《Java工程师成神之路~》](http://www.hollischuang.com/archives/489?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io) 进行组织。
