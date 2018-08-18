@@ -2,9 +2,9 @@
 架构脑图
 
 
-一、基础篇
-
-JVM
+# 一、基础篇
+---
+## JVM
 
 JVM内存结构
 
@@ -36,11 +36,11 @@ classLoader、类加载过程、双亲委派（破坏双亲委派）、模块化
 
 jps, jstack, jmap、jstat, jconsole, jinfo, jhat, javap, btrace、TProfiler
 
-编译与反编译
+## 编译与反编译
 
 javac 、javap 、jad 、CRF
 
-Java基础知识
+## Java基础知识
 
 阅读源代码
 
@@ -134,7 +134,7 @@ commons.lang, commons.*... guava-libraries netty
 
 Java中语法糖原理、解语法糖
 
-Java并发编程
+## Java并发编程
 
 什么是线程，与进程的区别
 
@@ -180,9 +180,9 @@ ThreadLocal
 
 守护线程和非守护线程的区别以及用法
 
-二、 进阶篇
-
-Java底层知识
+# 二、 进阶篇
+---
+## Java底层知识
 
 字节码、class文件格式
 
@@ -194,7 +194,7 @@ CPU缓存，L1，L2，L3和伪共享
 
 用位运算实现加、减、乘、除、取余
 
-设计模式
+## 设计模式
 
 了解23种设计模式
 
@@ -210,7 +210,7 @@ CPU缓存，L1，L2，L3和伪共享
 
 nio和reactor设计模式
 
-网络编程知识
+## 网络编程知识
 
 tcp、udp、http、https等常用协议
 
@@ -226,7 +226,7 @@ cookie被禁用，如何实现session
 
 用Java写一个简单的静态文件的HTTP服务器
 
-实现客户端缓存功能，支持返回304 实现可并发下载一个文件 使用线程池处理客户端请求 使用nio处理客户端请求 支持简单的rewrite规则 上述功能在实现的时候需要满足“开闭原则”
+> 实现客户端缓存功能，支持返回304 实现可并发下载一个文件 使用线程池处理客户端请求 使用nio处理客户端请求 支持简单的rewrite规则 上述功能在实现的时候需要满足“开闭原则”
 
 了解nginx和apache服务器的特性并搭建一个对应的服务器
 
@@ -240,7 +240,7 @@ cookie被禁用，如何实现session
 
 反向代理
 
-框架知识
+## 框架知识
 
 Servlet线程安全问题
 
@@ -264,7 +264,7 @@ Spring Boot的starter原理，自己实现一个starter
 
 Spring Security
 
-应用服务器知识
+## 应用服务器知识
 
 JBoss
 
@@ -274,15 +274,15 @@ jetty
 
 Weblogic
 
-工具
+## 工具
 
 git & svn
 
 maven & gradle
 
-三、 高级篇
-
-新技术
+# 三、 高级篇
+---
+##新技术
 
 Java 8
 
@@ -302,11 +302,11 @@ Spring 5
 
 Spring Boot 2.0
 
-性能优化
+## 性能优化
 
 使用单例、使用Future模式、使用线程池、选择就绪、减少上下文切换、减少锁粒度、数据压缩、结果缓存
 
-线上问题分析
+## 线上问题分析
 
 dump获取
 
@@ -338,7 +338,7 @@ HeapOutOfMemory、 Young OutOfMemory、MethodArea OutOfMemory、ConstantPool Out
 
 如何判断是否存在内存泄露
 
-编译原理知识
+## 编译原理知识
 
 编译与反编译
 
@@ -348,7 +348,7 @@ Java的反编译工具
 
 词法分析，语法分析（LL算法，递归下降算法，LR算法），语义分析，运行时环境，中间代码，代码生成，代码优化
 
-操作系统知识
+## 操作系统知识
 
 Linux的常用命令
 
@@ -360,7 +360,7 @@ Linux的常用命令
 
 虚拟内存与主存
 
-数据库知识
+## 数据库知识
 
 MySql 执行引擎
 
@@ -394,7 +394,7 @@ redis、memcached
 
 性能调优
 
-数据结构与算法知识
+## 数据结构与算法知识
 
 简单的数据结构
 
@@ -408,7 +408,7 @@ redis、memcached
 
 各种排序算法和时间复杂度 深度优先和广度优先搜索 全排列、贪心算法、KMP算法、hash算法、海量数据处理
 
-大数据知识
+## 大数据知识
 
 Zookeeper
 
@@ -430,7 +430,7 @@ HDFS、MapReduce
 
 数据挖掘，mahout
 
-网络安全知识
+## 网络安全知识
 
 什么是XSS
 
@@ -458,9 +458,9 @@ SSL、TLS，HTTPS
 
 用openssl签一个证书部署到apache或nginx
 
-四、架构篇
-
-分布式
+# 四、架构篇
+---
+## 分布式
 
 数据一致性、服务治理、服务降级
 
@@ -484,7 +484,7 @@ mfs、fastdfs
 
 缓存一致性、缓存命中率、缓存冗余
 
-微服务
+## 微服务
 
 SOA、康威定律
 
@@ -496,7 +496,7 @@ Spring Boot
 
 Spring Cloud
 
-高并发
+## 高并发
 
 分库分表
 
@@ -506,7 +506,7 @@ CDN技术
 
 ActiveMQ
 
-监控
+## 监控
 
 监控什么
 
@@ -522,33 +522,33 @@ CPU、内存、磁盘I/O、网络I/O等
 
 Dapper
 
-负载均衡
+## 负载均衡
 
 tomcat负载均衡、Nginx负载均衡
 
-DNS
+## DNS
 
 DNS原理、DNS的设计
 
-CDN
+## CDN
 
 数据一致性
 
-五、 扩展篇
-
-云计算
+# 五、 扩展篇
+---
+## 云计算
 
 IaaS、SaaS、PaaS、虚拟化技术、openstack、Serverlsess
 
-搜索引擎
+## 搜索引擎
 
 Solr、Lucene、Nutch、Elasticsearch
 
-权限管理
+## 权限管理
 
 Shiro
 
-区块链
+## 区块链
 
 哈希算法、Merkle树、公钥密码算法、共识算法、Raft协议、Paxos 算法与 Raft 算法、拜占庭问题与算法、消息认证码与数字签名
 
@@ -560,7 +560,7 @@ Shiro
 
 超级账本
 
-人工智能
+## 人工智能
 
 数学基础、机器学习、人工神经网络、深度学习、应用场景。
 
@@ -568,13 +568,13 @@ Shiro
 
 TensorFlow、DeepLearning4J
 
-其他语言
+## 其他语言
 
 Groovy、Python、Go、NodeJs、Swift、Rust
 
-六、 推荐书籍
-
+#六、 推荐书籍
+---
 《深入理解Java虚拟机》 《Effective Java》 《深入分析Java Web技术内幕》 《大型网站技术架构》 《代码整洁之道》 《Head First设计模式》 《maven实战》 《区块链原理、设计与应用》 《Java并发编程实战》 《鸟哥的Linux私房菜》 《从Paxos到Zookeeper》 《架构即未来》
 
 
-注：脑图内容按照《Java工程师成神之路~》[http://www.hollischuang.com/archives/489?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io] 进行组织。
+注：脑图内容按照[《Java工程师成神之路~》](http://www.hollischuang.com/archives/489?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io) 进行组织。
