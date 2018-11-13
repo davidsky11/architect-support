@@ -146,7 +146,7 @@ Java中语法糖原理、解语法糖
 
 阅读源代码，并学会使用
 
-Thread、Runnable、Callable、ReentrantLock、ReentrantReadWriteLock、Atomic*、Semaphore、CountDownLatch、、ConcurrentHashMap、Executors
+Thread、Runnable、Callable、ReentrantLock、ReentrantReadWriteLock、Atomic*、Semaphore、CountDownLatch、ConcurrentHashMap、Executors
 
 线程池
 
@@ -199,6 +199,8 @@ CPU缓存，L1，L2，L3和伪共享
 位运算
 
 用位运算实现加、减、乘、除、取余
+
+Linux与JVM内存模型
 
 ## 设计模式
 
