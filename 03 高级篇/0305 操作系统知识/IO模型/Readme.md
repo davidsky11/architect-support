@@ -98,7 +98,7 @@ struct pollfd {
     int fd; /* file descriptor */
     short events; /* requested events to watch */
     short revents; /* returned events witnessed */
-    };
+};
 ```
 
 pollfd结构包含了要监视的event和发生的event，不再使用select“参数-值”传递的方式。同时，pollfd并没有最大数量限制（但是数量过大后性能也是会下降）。 和select函数一样，poll返回后，需要轮询pollfd来获取就绪的描述符。
@@ -138,7 +138,7 @@ ET模式在很大程度上减少了epoll事件被重复触发的次数，因此�
 在 select/poll中，进程只有在调用一定的方法后，内核才对所有监视的文件描述符进行扫描，而epoll事先通过epoll_ctl()来注册一个文件描述符，一旦基于某个文件描述符就绪时，内核会采用类似callback的回调机制，迅速激活这个文件描述符，当进程调用epoll_wait() 时便得到通知。(此处去掉了遍历文件描述符，而是通过监听回调的的机制。这正是epoll的魅力所在。  
 
 **特点：**  
- 1. epoll和selec、poll的调用接口上的不同  
+ 1. epoll和select、poll的调用接口上的不同  
  2. 使用mmap加速内核与用户空间的消息传递  
  3. 调用后无需轮询判断描述符事件是否就绪  
  4. 监视描述符没有个数上限  
