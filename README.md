@@ -34,7 +34,7 @@ classLoader、类加载过程、双亲委派（破坏双亲委派）、模块化
 
 虚拟机性能监控与故障处理工具
 
-jps, jstack, jmap、jstat, jconsole, jinfo, jhat, javap, btrace、TProfiler
+jps, jstack, jmap、jstat, jconsole, jinfo, jhat, javap, btrace、TProfiler、JProfiler
 
 ## 编译与反编译
 
@@ -48,15 +48,15 @@ String、Integer、Long、Enum、BigDecimal、ThreadLocal、ClassLoader & URLCla
 
 Java中各种变量类型
 
-熟悉Java String的使用，熟悉String的各种函数
+熟悉Java String的使用，熟悉String的各种函数()，String#intern()函数
 
-JDK 6和JDK 7中substring的原理及区别、
+JDK 6和JDK 7中substring的原理及区别
 
-replaceFirst、replaceAll、replace区别、
+replaceFirst、replaceAll、replace区别
 
-String对“+”的重载、
+String对“+”的重载、+ StringBuffer StringBuilder 性能对比
 
-String.valueOf和Integer.toString的区别、
+String.valueOf和Integer.toString的区别
 
 字符串的不可变性
 
@@ -66,11 +66,13 @@ Integer的缓存机制
 
 熟悉Java中各种关键字
 
-transient、instanceof、volatile、synchronized、final、static、const 原理及用法。
+transient、instanceof、volatile、synchronized、final、static、const 原理及用法
 
 集合类
 
 常用集合类的使用、ArrayList和LinkedList和Vector的区别 、SynchronizedList和Vector的区别、HashMap、HashTable、ConcurrentHashMap区别、Java 8中stream相关用法、apache集合处理工具类的使用、不同版本的JDK中HashMap的实现的区别以及原因
+
+fast-fail 和 fail-safe
 
 枚举
 
@@ -108,6 +110,10 @@ java.lang.management.*、 javax.management.*
 
 junit、mock、mockito、内存数据库（h2）
 
+性能测试
+
+JMH、junitperf、JMeter
+
 正则表达式
 
 java.lang.util.regex.*
@@ -140,11 +146,11 @@ Java中语法糖原理、解语法糖
 
 阅读源代码，并学会使用
 
-Thread、Runnable、Callable、ReentrantLock、ReentrantReadWriteLock、Atomic*、Semaphore、CountDownLatch、、ConcurrentHashMap、Executors
+Thread、Runnable、Callable、ReentrantLock、ReentrantReadWriteLock、Atomic*、Semaphore、CountDownLatch、ConcurrentHashMap、Executors
 
 线程池
 
-自己设计线程池、submit() 和 execute()
+自己设计线程池、submit() 和 execute()、任务队列、拒绝策略
 
 线程安全
 
@@ -194,13 +200,15 @@ CPU缓存，L1，L2，L3和伪共享
 
 用位运算实现加、减、乘、除、取余
 
+Linux与JVM内存模型
+
 ## 设计模式
 
 了解23种设计模式
 
-会使用常用设计模式
+常用设计模式
 
-单例、策略、工厂、适配器、责任链。
+单例、策略、工厂、适配器、责任链
 
 实现AOP
 
@@ -286,7 +294,7 @@ maven & gradle
 
 Java 8
 
-lambda表达式、Stream API、
+lambda表达式、Stream API
 
 Java 9
 
@@ -326,15 +334,15 @@ HeapOutOfMemory、 Young OutOfMemory、MethodArea OutOfMemory、ConstantPool Out
 
 使用工具尝试解决以下问题，并写下总结
 
-当一个Java程序响应很慢时如何查找问题、
+当一个Java程序响应很慢时如何查找问题
 
-当一个Java程序频繁FullGC时如何解决问题、
+当一个Java程序频繁FullGC时如何解决问题
 
-如何查看垃圾回收日志、
+如何查看垃圾回收日志
 
-当一个Java应用发生OutOfMemory时该如何解决、
+当一个Java应用发生OutOfMemory时该如何解决
 
-如何判断是否出现死锁、
+如何判断是否出现死锁
 
 如何判断是否存在内存泄露
 
@@ -398,7 +406,7 @@ redis、memcached
 
 简单的数据结构
 
-栈、队列、链表、数组、哈希表、
+栈、队列、链表、数组、哈希表
 
 树
 
@@ -574,7 +582,7 @@ Groovy、Python、Go、NodeJs、Swift、Rust
 
 # 六、 推荐书籍
 
-《深入理解Java虚拟机》 《Effective Java》 《深入分析Java Web技术内幕》 《大型网站技术架构》 《代码整洁之道》 《Head First设计模式》 《maven实战》 《区块链原理、设计与应用》 《Java并发编程实战》 《鸟哥的Linux私房菜》 《从Paxos到Zookeeper》 《架构即未来》
+《深入理解Java虚拟机》 《深入分析Java Web技术内幕》 《大型网站技术架构》 《代码整洁之道》 《Head First设计模式》 《Java并发编程实战》 《鸟哥的Linux私房菜》 《从Paxos到Zookeeper》 《架构即未来》 《MySQL技术内幕:InnoDB存储引擎》
 
 
 
